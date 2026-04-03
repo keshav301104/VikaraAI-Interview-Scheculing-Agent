@@ -94,7 +94,7 @@ export default function Home() {
     setIsConnecting(true);
     setAgentStatus('Connecting...');
     try {
-      const response = await fetch('http://localhost:8000/create-web-call', {
+      const response = await fetch('https://vikara-api.onrender.com/create-web-call', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ agent_id: agentId }),
@@ -128,7 +128,7 @@ export default function Home() {
       <motion.div 
         initial={{ opacity: 0, scale: 0.9, filter: 'blur(10px)' }}
         animate={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
-        transition={{ duration: 1, ease: smoothEase }}
+        transition={{ duration: 1, ease: smoothEase as any }}
         className="absolute top-10 left-10 xl:top-12 xl:left-12 z-50 flex items-center gap-3"
       >
         <div className="w-9 h-9 bg-blue-600 rounded-xl flex items-center justify-center shadow-[0_0_30px_rgba(37,99,235,0.3)]">
@@ -147,7 +147,7 @@ export default function Home() {
           <motion.h1 
             initial={{ opacity: 0, y: 30, letterSpacing: "0.1em" }}
             animate={{ opacity: 1, y: 0, letterSpacing: "-0.02em" }}
-            transition={{ duration: 1.2, ease: smoothEase }}
+            transition={{ duration: 1.2, ease: smoothEase as any }}
             className="text-5xl md:text-6xl font-semibold text-white text-center whitespace-nowrap bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500"
           >
             AI Interview Assistant
@@ -157,7 +157,7 @@ export default function Home() {
         {/* INTERACTION GROUP - GPU ACCELERATED GLIDE */}
         <motion.div
           animate={{ y: isActive ? -70 : 0 }} 
-          transition={{ duration: 0.85, ease: smoothEase }}
+          transition={{ duration: 0.85, ease: smoothEase as any }}
           style={{ willChange: "transform" }}
           className="flex flex-col items-center w-full"
         >
