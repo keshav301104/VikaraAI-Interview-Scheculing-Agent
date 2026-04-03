@@ -1,0 +1,11 @@
+# Ignore heavy dependency folders everywhere
+node_modules/
+venv/
+env/
+__pycache__/
+.next/
+
+# Ignore secrets everywhere
+.env
+credentials.json
+token.json

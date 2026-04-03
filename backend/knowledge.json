@@ -1,0 +1,7 @@
+{
+  "company_info": "Vikara.AI is a cutting-edge startup specializing in autonomous multi-agent systems and voice AI infrastructure.",
+  "roles_available": "We are currently hiring for three open roles: AI Agent Development Intern, Full Stack Developer, and Product Designer.",
+  "internship_details": "All internships at Vikara are 3-month remote positions. We look for proactive builders who love shipping code fast.",
+  "interview_process": "The interview process begins with this AI screening call to assess baseline fit, followed by a technical assessment, and a final founder interview.",
+  "tech_stack": "Our core engineering tech stack includes Python, React, Next.js, FastAPI, Llama models via Groq, and MongoDB."
+}
