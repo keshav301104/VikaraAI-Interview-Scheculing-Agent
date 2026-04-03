@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7607f7ba-1276-4e30-a5cf-a7e3ea910740" /># 🎙️ Vikara.AI | Autonomous Voice Recruiting Intelligence
+# 🎙️ Vikara.AI | Autonomous Voice Recruiting Intelligence
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg?logo=python&logoColor=white)
