@@ -1,4 +1,4 @@
-# 🎙️ Vikara.AI | Autonomous Voice Recruiting Intelligence
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7607f7ba-1276-4e30-a5cf-a7e3ea910740" /># 🎙️ Vikara.AI | Autonomous Voice Recruiting Intelligence
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg?logo=python&logoColor=white)
@@ -21,8 +21,7 @@
 ---
 
 ## 🚀 Live Deployments
-* **Frontend Application (Vercel):** [`https://vikara-ai.vercel.app`](#) *(Enter your link)*
-* **Backend API (Render/Railway):** [`https://vikara-api.onrender.com`](#) *(Enter your link)*
+**Deployed Link (Vercel):** https://vikara-ai-interview-scheculing-agent-h04hzdqyv.vercel.app/
 
 ---
 
