@@ -1,11 +1,15 @@
-# Ignore heavy dependency folders everywhere
+# Heavy Folders
 node_modules/
 venv/
 env/
 __pycache__/
 .next/
+frontend/node_modules/
+frontend/.next/
 
-# Ignore secrets everywhere
+# Secrets
 .env
 credentials.json
 token.json
+backend/credentials.json
+backend/token.json
