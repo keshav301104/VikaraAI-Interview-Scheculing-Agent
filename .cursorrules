@@ -1,0 +1,14 @@
+# Project Context
+This is "Vikara AI", an AI-native voice and interview scheduling agent. It acts as an autonomous HR orchestrator to eliminate timezone friction for global recruiting.
+
+# Tech Stack & Standards
+- Backend: Python (FastAPI)
+- AI/LLMs: Groq, OpenAI, Retell AI SDK
+- Tools: Google Calendar API (via google-api-python-client)
+- Database: MongoDB (pymongo)
+
+# Cursor AI Guidelines
+- Always write strictly type-hinted Python code.
+- Prefer async/await patterns for external API calls (LLMs, Calendar, WebSockets).
+- Never hardcode API keys or credentials; always assume they will be loaded from a `.env` file.
+- Maintain modular separation between the LLM reasoning layer (`llm.py`) and the external tool execution layer (`calendar_tools.py`).
