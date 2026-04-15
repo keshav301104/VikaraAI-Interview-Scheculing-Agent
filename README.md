@@ -43,8 +43,7 @@ I developed a custom metric weighted across three operational FDE/APO axes:
 ---
 
 ## 🚀 Live Deployments
-* **Frontend Application (Vercel):** [`https://vikara-ai.vercel.app`](#) *(Enter your link)*
-* **Backend API (Render/Railway):** [`https://vikara-api.onrender.com`](#) *(Enter your link)*
+**Deployed Link (Vercel):** https://vikara-ai-interview-scheculing-agent-h04hzdqyv.vercel.app/
 
 ---
 
